@@ -5,7 +5,7 @@ Convert HTML to DOCX.
 Convert HTML to Text.
 Merge RTF and Replace.
 
-This repository contains [Examples for PDHTML to RTF .Net](https://sautinsoft.com/products/html-to-rtf/examples/) to help you learn and write your own applications.
+This repository contains [Examples for HTML to RTF .Net](https://sautinsoft.com/products/html-to-rtf/examples/) to help you learn and write your own applications.
 
 <p align="center">
 
