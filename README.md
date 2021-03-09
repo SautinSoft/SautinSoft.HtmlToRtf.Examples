@@ -1,9 +1,9 @@
 [HTML to RTF .Net by SautinSoft](https://sautinsoft.com/products/html-to-rtf/)will help you in development of applications where is necessary to convert any HTML documents to Word, RTF, DOCX. After adding of the reference to "SautinSoft.HtmlToRtf.dll" and typing 3-4 C# lines, you can use these API in your apps:
 
-Convert HTML to RTF.
-Convert HTML to DOCX.
-Convert HTML to Text.
-Merge RTF and Replace.
+Convert HTML to RTF.</br>
+Convert HTML to DOCX.</br>
+Convert HTML to Text.</br>
+Merge RTF and Replace.</br>
 
 This repository contains [Examples for HTML to RTF .Net](https://sautinsoft.com/products/html-to-rtf/examples/) to help you learn and write your own applications.
 
