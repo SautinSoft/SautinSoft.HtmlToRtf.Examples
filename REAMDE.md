@@ -2,7 +2,7 @@
 
 [![Nuget version](https://img.shields.io/nuget/v/sautinsoft.htmltortf?style=for-the-badge)](https://www.nuget.org/packages/sautinsoft.htmltortf/)[![Nuget downloads](https://img.shields.io/nuget/dt/sautinsoft.htmltortf?style=for-the-badge)](https://www.nuget.org/packages/sautinsoft.htmltortf/)
 
-<img src="https://www.sautinsoft.com/media/github/h.png" alt="SautinSoft.HtmlToRtf logo" align="left" />
+<img src="https://www.sautinsoft.com/media/github/h.png" alt="SautinSoft.HtmlToRtf" align="left" />
 
 [SautinSoft.HtmlToRtf](https://sautinsoft.com/products/html-to-rtf/) is .NET assembly (SDK) which gives API to convert HTML to DOCX, RTF and Text. Merge and replace text in RTF documents.
 
