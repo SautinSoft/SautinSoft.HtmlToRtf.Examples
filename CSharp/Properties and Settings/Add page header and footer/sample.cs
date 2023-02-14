@@ -20,12 +20,12 @@ namespace Sample
             // After purchasing the license, please insert your serial number here to activate the component.
             // h.Serial = "XXXXXXXXX";
 
-            string inputFile = @"..\..\Sample.html";
+            string inputFile = @"..\..\..\Sample.html";
             string outputFile = "Result.docx";
 
             // Set page header and footer.
-            string headerFromHtml = File.ReadAllText(@"..\..\header.html");
-            string footerFromRtf = File.ReadAllText(@"..\..\footer.rtf");
+            string headerFromHtml = File.ReadAllText(@"..\..\..\header.html");
+            string footerFromRtf = File.ReadAllText(@"..\..\..\footer.rtf");
 
             // Add page header.
             h.PageStyle.PageHeader.Html(headerFromHtml);

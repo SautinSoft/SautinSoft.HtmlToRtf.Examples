@@ -21,7 +21,7 @@ namespace Sample
             // After purchasing the license, please insert your serial number here to activate the component.
             // h.Serial = "XXXXXXXXX";
 
-            string inputFile = @"..\..\utf-8.html";
+            string inputFile = @"..\..\..\utf-8.html";
             string outputFile = "Result.rtf";
 
             // Specify the 'BaseURL' property that component can find the full path to images, like a: <img src="..\pict.png" and

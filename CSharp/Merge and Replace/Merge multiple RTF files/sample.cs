@@ -21,7 +21,7 @@ namespace Sample
             // After purchasing the license, please insert your serial number here to activate the component.
             // h.Serial = "XXXXXXXXX";
 
-            DirectoryInfo htmlDir = new DirectoryInfo(@"..\..\");
+            DirectoryInfo htmlDir = new DirectoryInfo(@"..\..\..\");
 
             // Array with several RTF files.            
             string[] rtfFiles = new string[] { "footer.rtf", "footer.rtf", "footer.rtf" };

@@ -20,7 +20,7 @@ namespace Sample
             // After purchasing the license, please insert your serial number here to activate the component.
             // h.Serial = "XXXXXXXXX";
 
-            string inpFolder = @"..\..\Testing HTMLs\";
+            string inpFolder = @"..\..\..\Testing HTMLs\";
             string outFolder = new DirectoryInfo(Directory.GetCurrentDirectory()).CreateSubdirectory("DOCX").FullName;
             string[] inpFiles = Directory.GetFiles(inpFolder, "*.htm*");
 

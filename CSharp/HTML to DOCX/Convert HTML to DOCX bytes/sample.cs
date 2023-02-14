@@ -19,7 +19,7 @@ namespace Sample
             // After purchasing the license, please insert your serial number here to activate the component.
             // h.Serial = "XXXXXXXXX";
 
-            string inputFile = @"..\..\pic.html";
+            string inputFile = @"..\..\..\pic.html";
             string outputFile = "Result.docx";
 
             // Read our HTML file a bytes.

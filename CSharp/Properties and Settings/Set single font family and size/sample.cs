@@ -24,7 +24,7 @@ namespace Sample
             // After purchasing the license, please insert your serial number here to activate the component.
             // h.Serial = "XXXXXXXXX";
 
-            string inputFile = @"..\..\Sample.html";
+            string inputFile = @"..\..\..\Sample.html";
             string outputFile = "Result.docx";
 
             // Let's make all text in document the same: Calibri, 32pt, Gray.

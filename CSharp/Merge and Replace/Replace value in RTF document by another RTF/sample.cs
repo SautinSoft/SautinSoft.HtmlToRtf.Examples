@@ -23,11 +23,11 @@ namespace Sample
 
             // For example, we've RTF with such content "This is a sample footer as RTF document."
             // Let's replace the string "sample" by another RTF file.
-            string sourceRtfFile = @"..\..\footer.rtf";
-            string wherewithReplaceRtfPath = @"..\..\footer.rtf";
+            string sourceRtfFile = @"..\..\..\footer.rtf";
+            string wherewithReplaceRtfPath = @"..\..\..\footer.rtf";
             string textToReplace = "sample";
             string resultRtfFile = "Result.rtf";
-            h.MergeOptions.PageBreakBetweenDocuments = false;
+            
             h.MergeAndReplaceRtfFileFromFile(sourceRtfFile, textToReplace, wherewithReplaceRtfPath, resultRtfFile);
 
             // Show the result.

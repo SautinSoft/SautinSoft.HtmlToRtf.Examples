@@ -21,7 +21,7 @@ namespace Sample
             // After purchasing the license, please insert your serial number here to activate the component.
             // h.Serial = "XXXXXXXXX";
 
-            string inputFile = @"..\..\sample.html";
+            string inputFile = @"..\..\..\sample.html";
             string outputFile = "Result.docx";
 
             // Set page size and page margins.

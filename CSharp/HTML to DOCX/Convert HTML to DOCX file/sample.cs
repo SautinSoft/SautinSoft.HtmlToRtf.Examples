@@ -20,7 +20,7 @@ namespace Sample
             // After purchasing the license, please insert your serial number here to activate the component.
             // h.Serial = "XXXXXXXXX";
 
-            string inputFile = @"..\..\Sample.html";
+            string inputFile = @"..\..\..\Sample.html";
             string outputFile = "Result.docx";
 
             if (h.OpenHtml(inputFile))

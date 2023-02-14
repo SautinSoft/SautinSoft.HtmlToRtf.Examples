@@ -21,7 +21,7 @@ namespace Sample
             // After purchasing the license, please insert your serial number here to activate the component.
             // h.Serial = "XXXXXXXXX";
 
-            string inputFile = @"..\..\pic.html";
+            string inputFile = @"..\..\..\pic.html";
             string outputFile = "Result.rtf";
 
             // Read our HTML file a string.

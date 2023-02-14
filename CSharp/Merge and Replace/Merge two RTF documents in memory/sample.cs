@@ -22,8 +22,11 @@ namespace Sample
             // h.Serial = "XXXXXXXXX";
 
             // Now we've both RTF documents stored in memory in String objects.
-            string rtfString1 = File.ReadAllText(@"..\..\footer.rtf");
-            string rtfString2 = File.ReadAllText(@"..\..\footer.rtf");
+            string rtfString1 = File.ReadAllText(@"..\..\..\footer.rtf");
+            string rtfString2 = File.ReadAllText(@"..\..\..\footer.rtf");
+
+            // Let's divide RTF documents using page break.
+            h.MergeOptions.PageBreakBetweenDocuments = true;
 
             string rtfSingle = h.MergeRtfString(rtfString1, rtfString2);
 

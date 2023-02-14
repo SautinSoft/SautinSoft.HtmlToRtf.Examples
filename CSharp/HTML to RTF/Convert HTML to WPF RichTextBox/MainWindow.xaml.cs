@@ -34,7 +34,7 @@ namespace Convert_HTML_to_WPF_RichTextBox
         /// <param name="e"></param>
         private void Start_Click(object sender, RoutedEventArgs e)
         {
-            string htmlFile = @"..\..\Sample.html";
+            string htmlFile = @"..\..\..\Sample.html";
             string rtfString = String.Empty;
 
             // Create an instance of the converter.

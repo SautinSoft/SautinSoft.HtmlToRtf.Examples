@@ -27,7 +27,7 @@
         </table>
         <p><br />
             Image 1:<br />
-        <img src="http://www.sautinsoft.net/samples/image%20samples/logo_green.jpg" alt="" /></p>        
+        <img src="https://sautinsoft.com/images/logo_green.jpg" alt="" /></p>        
             
         <p>Bullets:</p>
         <ul>
