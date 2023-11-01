@@ -77,7 +77,7 @@ File.WriteAllText(singleRtfPath, singleRtf);
 
 + **Website:** [www.sautinsoft.com](http://www.sautinsoft.com)
 + **Product Home:** [HTML to RTF .Net](https://sautinsoft.com/products/html-to-rtf/)
-+ [Download SautinSoft.HTMLtoRTF](https://sautinsoft.com/products/html-to-rtf/download.php)
++ [Download SautinSoft.HtmlToRtf](https://sautinsoft.com/products/html-to-rtf/download.php)
 + [Developer Guide](https://sautinsoft.com/products/html-to-rtf/help/net/developer-guide/convert-html-to-docx-csharp-vb-net.php)
 + [API Reference](https://sautinsoft.com/products/html-to-rtf/help/net/api-reference/html/N_SautinSoft.htm)
 + [Support Team](https://sautinsoft.com/support.php)
