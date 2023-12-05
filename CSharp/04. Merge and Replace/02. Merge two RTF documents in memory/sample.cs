@@ -8,6 +8,9 @@ namespace Sample
 
         static void Main(string[] args)
         {
+			// Get your free 30-day key here:   
+            // https://sautinsoft.com/start-for-free/
+	
             // Merge two RTF documents in memory.
             // If you need more information about "HTML to RTF .Net" email us at:
             // support@sautinsoft.com.

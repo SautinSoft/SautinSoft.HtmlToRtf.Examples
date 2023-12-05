@@ -8,6 +8,9 @@ namespace Sample
 
         static void Main(string[] args)
         {
+			// Get your free 30-day key here:   
+            // https://sautinsoft.com/start-for-free/
+	
             // How to replace values in RTF document by another RTF content.
             // If you need more information about "HTML to RTF .Net" email us at:
             // support@sautinsoft.com	

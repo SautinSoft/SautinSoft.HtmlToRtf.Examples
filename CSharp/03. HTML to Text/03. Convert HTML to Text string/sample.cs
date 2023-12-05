@@ -8,6 +8,9 @@ namespace Sample
     {
         static void Main(string[] args)
         {
+			// Get your free 30-day key here:   
+            // https://sautinsoft.com/start-for-free/
+	
             // Convert HTML string to Text string.
             // If you need more information about "HTML to RTF .Net" 
             // Email us at: support@sautinsoft.com.
