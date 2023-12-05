@@ -5,12 +5,9 @@ Namespace Sample
 	Friend Class Test
 
 		Shared Sub Main(ByVal args() As String)
-<<<<<<< HEAD
 			' Get your free 30-day key here:   
             ' https://sautinsoft.com/start-for-free/
 	
-=======
->>>>>>> 45a2beed078790cd1f555bd0ea963d2ba6ee1718
 			' Merge multiple RTF files
 			' If you need more information about "HTML to RTF .Net" email us at:
 			' support@sautinsoft.com		
