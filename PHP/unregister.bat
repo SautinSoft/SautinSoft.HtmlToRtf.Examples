@@ -1,1 +1,0 @@
-Regasm /u SautinSoft.HtmlToRtf.dll /tlb:SautinSoft.HtmlToRtf.tlb
