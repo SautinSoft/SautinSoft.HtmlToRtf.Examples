@@ -1,10 +1,11 @@
 Imports SautinSoft
 Imports System.IO
+Imports SautinSoft.HtmlToRtf
 
 Namespace Sample
 	Friend Class Sample
 		Shared Sub Main()
-			' Get your free 30-day key here:   
+			' Get your free 100-day key here:   
             ' https://sautinsoft.com/start-for-free/
 	
 			' You will get own serial number after purchasing the license.

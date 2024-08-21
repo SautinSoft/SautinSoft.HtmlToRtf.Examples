@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using SautinSoft;
+using static SautinSoft.HtmlToRtf;
 
 namespace Sample
 {
@@ -8,7 +9,7 @@ namespace Sample
     {
         static void Main(string[] args)
         {
-			// Get your free 30-day key here:   
+			// Get your free 100-day key here:   
             // https://sautinsoft.com/start-for-free/
 	
             // Set page size A5; margins: top, bottom 30 mm and left, right to 50 mm.

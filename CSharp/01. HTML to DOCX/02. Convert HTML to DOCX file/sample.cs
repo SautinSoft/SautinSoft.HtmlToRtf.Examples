@@ -8,7 +8,7 @@ namespace Sample
     {
         static void Main(string[] args)
         {			
-			// Get your free 30-day key here:   
+			// Get your free 100-day key here:   
             // https://sautinsoft.com/start-for-free/
 			
             // Convert HTML file to DOCX file.
@@ -24,10 +24,7 @@ namespace Sample
             string inputFile = @"..\..\..\Sample.html";
             string outputFile = "Result.docx";
 
-            HtmlConvertOptions opt = new HtmlConvertOptions();
-            opt.OutputFormat = HtmlToRtf.OutputFormat.Docx;
-
-            if (h.Convert(inputFile, outputFile, opt))
+            if (h.Convert(inputFile, outputFile, new HtmlToRtf.HtmlConvertOptions() {  OutputFormat = HtmlToRtf.OutputFormat.Docx}))
             {
                 // Open the result for demonstration purposes.
                 System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(outputFile) { UseShellExecute = true });

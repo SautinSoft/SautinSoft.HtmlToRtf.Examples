@@ -1,5 +1,6 @@
 using SautinSoft;
 using System.IO;
+using static SautinSoft.HtmlToRtf;
 
 namespace Sample
 {
@@ -7,7 +8,7 @@ namespace Sample
     {
         static void Main()
         {
-			// Get your free 30-day key here:   
+			// Get your free 100-day key here:   
             // https://sautinsoft.com/start-for-free/
 	
             // You will get own serial number after purchasing the license.

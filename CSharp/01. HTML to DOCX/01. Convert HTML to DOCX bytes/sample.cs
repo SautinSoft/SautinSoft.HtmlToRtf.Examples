@@ -9,7 +9,7 @@ namespace Sample
 
         static void Main(string[] args)
         {
-			// Get your free 30-day key here:   
+			// Get your free 100-day key here:   
             // https://sautinsoft.com/start-for-free/
 			
             // Convert HTML bytes to DOCX bytes.
@@ -30,11 +30,8 @@ namespace Sample
 
             // Specify the 'BaseURL' property that component can find the full path to images, like a: <img src="..\pict.png" and
             // to external css, like a:  <link rel="stylesheet" href="/css/style.css">.
-            HtmlConvertOptions opt = new HtmlConvertOptions();
-            opt.BaseURL = Path.GetDirectoryName(Path.GetFullPath(inputFile));
-            opt.OutputFormat = HtmlToRtf.OutputFormat.Docx;
-
-            if (h.Convert(htmlBytes, out docxBytes, opt))
+           
+            if (h.Convert(htmlBytes, out docxBytes, new HtmlToRtf.HtmlConvertOptions() {  OutputFormat = HtmlToRtf.OutputFormat.Docx}))
             {
                 // Open the result for demonstration purposes.
                 File.WriteAllBytes(outputFile, docxBytes);
