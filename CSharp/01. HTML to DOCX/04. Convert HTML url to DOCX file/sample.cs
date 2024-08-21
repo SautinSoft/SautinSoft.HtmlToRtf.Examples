@@ -23,13 +23,13 @@ namespace Sample
         {
             SautinSoft.HtmlToRtf h = new SautinSoft.HtmlToRtf();
 
-            string inputFile = @"https://www.sautinsoft.net/samples/utf-8.html";
+            string inputFile = @"https://www.sautinsoft.com/samples/Sample.html";
             string outputFile = "Result.docx";
 
             // Specify the 'BaseURL' property that component can find the full path to images, like a: <img src="..\pict.png" and
             // to external css, like a:  <link rel="stylesheet" href="/css/style.css">.
             HtmlConvertOptions opt = new HtmlConvertOptions();
-            opt.BaseURL = @"https://www.sautinsoft.net/samples/";
+            opt.BaseURL = @"https://www.sautinsoft.com/samples/";
             opt.OutputFormat = HtmlToRtf.OutputFormat.Docx;
 
             if (h.Convert(inputFile, outputFile, opt))

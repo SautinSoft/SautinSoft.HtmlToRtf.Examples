@@ -1,5 +1,6 @@
 ﻿Imports SautinSoft
 Imports System.IO
+Imports SautinSoft.HtmlToRtf
 
 Class MainWindow
     Private Sub Start_Click(sender As Object, e As RoutedEventArgs)

@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using SautinSoft;
 using System.IO;
+using static SautinSoft.HtmlToRtf;
 
 namespace Convert_HTML_to_WPF_RichTextBox
 {
