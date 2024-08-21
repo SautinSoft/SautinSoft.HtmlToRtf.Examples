@@ -59,6 +59,9 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <PackageReference Include="sautinsoft.htmltortf">
+      <Version>*</Version>
+    </PackageReference>
     <PackageReference Include="SkiaSharp">
       <Version>2.88.6</Version>
     </PackageReference>
