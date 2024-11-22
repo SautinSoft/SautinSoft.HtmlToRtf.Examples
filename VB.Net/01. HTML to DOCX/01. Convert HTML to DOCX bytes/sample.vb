@@ -31,6 +31,7 @@ Namespace Sample
 			opt.BaseURL = Path.GetDirectoryName(Path.GetFullPath(inputFile))
 			opt.OutputFormat = HtmlToRtf.OutputFormat.Docx
 
+
 			If h.Convert(htmlBytes, docxBytes, opt) Then
 				' Open the result for demonstration purposes.
 				File.WriteAllBytes(outputFile, docxBytes)

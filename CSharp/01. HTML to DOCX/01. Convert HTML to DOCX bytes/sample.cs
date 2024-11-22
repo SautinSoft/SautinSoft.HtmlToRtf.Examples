@@ -31,7 +31,7 @@ namespace Sample
             // Specify the 'BaseURL' property that component can find the full path to images, like a: <img src="..\pict.png" and
             // to external css, like a:  <link rel="stylesheet" href="/css/style.css">.
            
-            if (h.Convert(htmlBytes, out docxBytes, new HtmlToRtf.HtmlConvertOptions() {  OutputFormat = HtmlToRtf.OutputFormat.Docx}))
+            if (h.Convert(htmlBytes, out docxBytes, new HtmlToRtf.HtmlConvertOptions() {  OutputFormat = HtmlToRtf.OutputFormat.Docx, BaseURL = Path.GetDirectoryName(inputFile) }))
             {
                 // Open the result for demonstration purposes.
                 File.WriteAllBytes(outputFile, docxBytes);
