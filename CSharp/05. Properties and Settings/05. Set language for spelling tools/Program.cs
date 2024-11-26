@@ -1,7 +1,6 @@
-using System;
+﻿using System;
 using System.IO;
 using SautinSoft;
-using static SautinSoft.HtmlToRtf;
 
 namespace Sample
 {
@@ -9,19 +8,19 @@ namespace Sample
     {
         static void Main(string[] args)
         {
-			// Get your free 100-day key here:   
+            // Get your free 30-day key here:   
             // https://sautinsoft.com/start-for-free/
-	
+
             // Set a language for a spelling tools.
             // If you need more information about "HTML to RTF .Net" email us at:
-            // support@sautinsoft.com		
+            // support@sautinsoft.com        
             ConvertHtmlToRtfFile();
         }
 
         public static void ConvertHtmlToRtfFile()
         {
             SautinSoft.HtmlToRtf h = new SautinSoft.HtmlToRtf();
-            HtmlConvertOptions opt = new HtmlConvertOptions();
+            HtmlToRtf.HtmlConvertOptions opt = new HtmlToRtf.HtmlConvertOptions();
             opt.OutputFormat = HtmlToRtf.OutputFormat.Rtf;
 
             string inpFile = @"..\..\..\sample.html";
@@ -38,4 +37,3 @@ namespace Sample
         }
     }
 }
-
