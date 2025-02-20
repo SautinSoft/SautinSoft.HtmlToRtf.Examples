@@ -9,7 +9,7 @@ namespace Sample
     {
         static void Main(string[] args)
         {
-			// Get your free 100-day key here:   
+			// Get your free key here:   
             // https://sautinsoft.com/start-for-free/
 	
             // Add page numbering during to HTML to RTF conversion.

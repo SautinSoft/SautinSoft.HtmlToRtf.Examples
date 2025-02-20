@@ -7,7 +7,7 @@ Namespace Sample
 	Friend Class Test
 
 		Shared Sub Main(ByVal args() As String)
-			' Get your free 100-day key here:   
+			' Get your free key here:   
             ' https://sautinsoft.com/start-for-free/
 	
 			' Convert HTML Stream to RTF Stream.

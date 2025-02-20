@@ -24,8 +24,7 @@
 ## System Requirement
 
 * .NET Framework 4.6.2 - 4.8
-* .NET Core 2.0 - 3.1, .NET 5, 6, 7, 8
-* .NET Standard 2.0
+* .NET 6, 7, 8, 9
 * Windows, Linux, macOS, Android, iOS.
 
 ## Getting Started with HTML to RTF .Net

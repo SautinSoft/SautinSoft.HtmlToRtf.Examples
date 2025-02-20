@@ -6,7 +6,7 @@ Namespace Sample
 	Friend Class Test
 
 		Shared Sub Main(ByVal args() As String)
-			' Get your free 100-day key here:   
+			' Get your free key here:   
             ' https://sautinsoft.com/start-for-free/
 	
 			' How to replace values in RTF document by another RTF content.

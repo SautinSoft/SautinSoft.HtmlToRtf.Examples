@@ -9,7 +9,7 @@ namespace Sample
 
         static void Main(string[] args)
         {
-			// Get your free 100-day key here:   
+			// Get your free key here:   
             // https://sautinsoft.com/start-for-free/
 	
             // How to replace values in RTF document by another RTF content.

@@ -6,7 +6,7 @@ Imports SautinSoft.HtmlToRtf
 Namespace Sample
 	Friend Class Test
 		Shared Sub Main(ByVal args() As String)
-			' Get your free 100-day key here:   
+			' Get your free key here:   
             ' https://sautinsoft.com/start-for-free/
 	
 			' Set page size A5; margins: top, bottom 30 mm and left, right to 50 mm.
