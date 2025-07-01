@@ -1,0 +1,2671 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>SautinSoft.HtmlToRtf</name>
+  </assembly>
+  <members>
+    <!-- Badly formed XML comment ignored for member "P:SautinSoft.Document.Drawing.Vector.Length" -->
+    <!-- Badly formed XML comment ignored for member "P:SautinSoft.Document.Drawing.Vector.LengthSquared" -->
+    <member name="T:SautinSoft.HtmlToRtf">
+      <summary>
+            The «HTML to RTF .Net» is .NET SDK, completely written in C#, to convert HTML documents to DOCX, RTF and Text formats.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.BorderVisibility">
+      <summary>
+            Specifies border visibility for all tables in the resulted document.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.BorderVisibility.Visible">
+      <summary>
+            Set the all borders for all tables in the document visible: solid 1px black.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.BorderVisibility.Hidden">
+      <summary>
+            Set the all borders for all tables in the document invisible.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.BorderVisibility.SameAsOriginalHtml">
+      <summary>
+            Default value: Set all table borders the same as in input HTML document.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.Encoding">
+      <summary>
+            Specifies the encoding for an input HTML document.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.AutoDetect">
+      <summary>
+            Auto-detect encoding
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.iso8859_1">
+      <summary>
+            iso-8859-1
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.iso8859_5">
+      <summary>
+            iso-8859-5
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.koi8_r">
+      <summary>
+            koi8-r
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.windows1251">
+      <summary>
+            windows-1251
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.utf8">
+      <summary>
+            utf-8
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.windows1254">
+      <summary>
+            windows-1254
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.windows1256">
+      <summary>
+            windows-1256
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.windows1250">
+      <summary>
+            windows-1250
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.windows1252">
+      <summary>
+            windows-1252
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.windows1253">
+      <summary>
+            windows-1253
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.windows1255">
+      <summary>
+            windows-1255
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.windows1257">
+      <summary>
+            windows-1257
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.windows1258">
+      <summary>
+            windows-1258
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.utf16">
+      <summary>
+            utf-16
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.ibm866">
+      <summary>
+            ibm866
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.shift_jis">
+      <summary>
+            shift_jis
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.gb2312">
+      <summary>
+            gb2312
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Encoding.unknown">
+      <summary>
+            The same as AutoDetect.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.Orientation">
+      <summary>
+            Specifies page orientation.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Orientation.Portrait">
+      <summary>
+            Portrait page orientation (narrow and tall).
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Orientation.Landscape">
+      <summary>
+            Landscape page orientation (wide and short).
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.OutputFormat">
+      <summary>
+            Specifies a format for the resulting document DOCX, RTF or Text.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\01. HTML to DOCX\03. Convert HTML to DOCX Stream\sample.cs" title="Convert HTML to DOCX Stream using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\01. HTML to DOCX\03. Convert HTML to DOCX Stream\sample.vb" title="Convert HTML to DOCX Stream using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.OutputFormat.Rtf">
+      <summary>
+            RTF (Rich Text Format Specification 1.8) format.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.OutputFormat.Docx">
+      <summary>
+            DOCX (Office Open XML, ECMA-376) format.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.OutputFormat.TextUTF8WithoutBOM">
+      <summary>
+            Text format with UTF-8 encoding (without BOM).
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.OutputFormat.TextUTF8WithBOM">
+      <summary>
+            Text format with UTF-8 encoding with BOM.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.OutputFormat.TextUTF16">
+      <summary>
+            Text format in UTF-16 encoding using the little endian byte order.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.OutputFormat.TextASCII">
+      <summary>
+            ASCII text format.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.Units">
+      <summary>
+            Specifies measurement units for <see cref="T:SautinSoft.HtmlToRtf.LengthUnit" /> class.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Units.Mm">
+      <summary>
+            Millimeters
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Units.Pt">
+      <summary>
+            Points
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Units.Inch">
+      <summary>
+            Inches
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Units.Twip">
+      <summary>
+            Twips, 1/20 of <see cref="F:SautinSoft.HtmlToRtf.Units.Pt" /></summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.SpellingLanguage">
+      <summary>
+            Specifies the default language for the output document. Usually the language is used to spell checking.
+            </summary>
+      <remarks>This language will be used by application which opens RTF (for example MS Word) for spell checking.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\05. Set language for spelling tools\sample.cs" title="Set language for spelling tools using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\05. Set language for spelling tools\sample.vb" title="Set language for spelling tools using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Afrikaans_South_Africa">
+      <summary>
+            Afrikaans South Africa
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Albanian">
+      <summary>
+            Albanian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Alsatian_France">
+      <summary>
+            Alsatian France
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Amharic_Ethiopia">
+      <summary>
+            Amharic Ethiopia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Algeria">
+      <summary>
+            Arabic Algeria
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Bahrain">
+      <summary>
+            Arabic Bahrain
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Egypt">
+      <summary>
+            Arabic Egypt
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Iraq">
+      <summary>
+            Arabic Iraq
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Jordan">
+      <summary>
+            Arabic Jordan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Kuwait">
+      <summary>
+            Arabic Kuwait
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Lebanon">
+      <summary>
+            Arabic Lebanon
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Libya">
+      <summary>
+            Arabic Libya
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Morocco">
+      <summary>
+            Arabic Morocco
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Oman">
+      <summary>
+            Arabic Oman
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Qatar">
+      <summary>
+            Arabic Qatar
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Saudi_Arabia">
+      <summary>
+            Arabic Saudi Arabia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Syria">
+      <summary>
+            Arabic Syria
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Tunisia">
+      <summary>
+            Arabic Tunisia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_UAE">
+      <summary>
+            Arabic UAE
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Arabic_Yemen">
+      <summary>
+            Arabic Yemen
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Armenian">
+      <summary>
+            Armenian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Assamese">
+      <summary>
+            Assamese
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Azeri_Cyrillic_Azerbaijan">
+      <summary>
+            Azeri Cyrillic Azerbaijan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Azeri_Latin_Azerbaijan">
+      <summary>
+            Azeri Latin Azerbaijan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Bashkir_Russia">
+      <summary>
+            Bashkir Russia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Basque">
+      <summary>
+            Basque
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Belarusian">
+      <summary>
+            Belarusian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Bengali_Bangladesh">
+      <summary>
+            Bengali Bangladesh
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Bengali_India">
+      <summary>
+            Bengali India
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.BosniaHerzegovina">
+      <summary>
+            BosniaHerzegovina
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Bosnian_Cyrillic">
+      <summary>
+            Bosnian Cyrillic
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Bosnian_Latin">
+      <summary>
+            Bosnian Latin
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Breton_France">
+      <summary>
+            Breton France
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Bulgarian">
+      <summary>
+            Bulgarian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Burmese">
+      <summary>
+            Burmese
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Catalan">
+      <summary>
+            Catalan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Cherokee">
+      <summary>
+            Cherokee
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Chinese_Hong_Kong">
+      <summary>
+            Chinese Hong Kong
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Chinese_Macao">
+      <summary>
+            Chinese Macao
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Chinese_PRC">
+      <summary>
+            Chinese PRC
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Chinese_Singapore">
+      <summary>
+            Chinese Singapore
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Chinese_Taiwan">
+      <summary>
+            Chinese Taiwan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Corsican">
+      <summary>
+            Corsican
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Croatian">
+      <summary>
+            Croatian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Czech">
+      <summary>
+            Czech
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Danish">
+      <summary>
+            Danish
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Dari">
+      <summary>
+            Dari
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Dutch_Belgium">
+      <summary>
+            Dutch Belgium
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Dutch_Netherlands">
+      <summary>
+            Dutch Netherlands
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Dzongkha">
+      <summary>
+            Dzongkha
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Australia">
+      <summary>
+            English Australia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Belize">
+      <summary>
+            English Belize
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Canada">
+      <summary>
+            English Canada
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Caribbean">
+      <summary>
+            English Caribbean
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Hong_Kong">
+      <summary>
+            English Hong Kong
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_India">
+      <summary>
+            English India
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Ireland">
+      <summary>
+            English Ireland
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Jamaica">
+      <summary>
+            English Jamaica
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Malaysia">
+      <summary>
+            English Malaysia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_New_Zealand">
+      <summary>
+            English New Zealand
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Philippines">
+      <summary>
+            English Philippines
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Singapore">
+      <summary>
+            English Singapore
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_South_Africa">
+      <summary>
+            English South Africa
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Trinidad_and_Tobago">
+      <summary>
+            English Trinidad and Tobago
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_United_Kingdom">
+      <summary>
+            English United Kingdom
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_United_States">
+      <summary>
+            English United States
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_Zimbabwe">
+      <summary>
+            English Zimbabwe
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Estonian">
+      <summary>
+            Estonian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Faroese">
+      <summary>
+            Faroese
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Filipino">
+      <summary>
+            Filipino
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Finnish">
+      <summary>
+            Finnish
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Belgium">
+      <summary>
+            French Belgium
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Cameroon">
+      <summary>
+            French Cameroon
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Canada">
+      <summary>
+            French Canada
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Congo">
+      <summary>
+            French Congo
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Cote_d_Ivoire">
+      <summary>
+            French Cote d Ivoire
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_France">
+      <summary>
+            French France
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Haiti">
+      <summary>
+            French Haiti
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Luxembourg">
+      <summary>
+            French Luxembourg
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Mali">
+      <summary>
+            French Mali
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Monaco">
+      <summary>
+            French Monaco
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Morocco">
+      <summary>
+            French Morocco
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Reunion">
+      <summary>
+            French Reunion
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Senegal">
+      <summary>
+            French Senegal
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.French_Switzerland">
+      <summary>
+            French Switzerland
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Frisian">
+      <summary>
+            Frisian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Galician">
+      <summary>
+            Galician
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Georgian">
+      <summary>
+            Georgian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.German_Austria">
+      <summary>
+            German Austria
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.German_Germany">
+      <summary>
+            German Germany
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.German_Liechtenstein">
+      <summary>
+            German Liechtenstein
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.German_Luxembourg">
+      <summary>
+            German Luxembourg
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.German_Switzerland">
+      <summary>
+            German Switzerland
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Greek">
+      <summary>
+            Greek
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Greenlandic">
+      <summary>
+            Greenlandic
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Guarani">
+      <summary>
+            Guarani
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Gujarati">
+      <summary>
+            Gujarati
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Hausa">
+      <summary>
+            Hausa
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Hawaiian">
+      <summary>
+            Hawaiian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Hebrew">
+      <summary>
+            Hebrew
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Hindi">
+      <summary>
+            Hindi
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Hungarian">
+      <summary>
+            Hungarian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Icelandic">
+      <summary>
+            Icelandic
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Indonesian">
+      <summary>
+            Indonesian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Inuktitut_Latin_Canada">
+      <summary>
+            Inuktitut Latin Canada
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Inuktitut_Syllabics_Canada">
+      <summary>
+            Inuktitut Syllabics Canada
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Italian_Italy">
+      <summary>
+            Italian Italy
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Italian_Switzerland">
+      <summary>
+            Italian Switzerland
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Japanese">
+      <summary>
+            Japanese
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Kannada">
+      <summary>
+            Kannada
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Kanuri">
+      <summary>
+            Kanuri
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Kashmiri">
+      <summary>
+            Kashmiri
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Kashmiri_Arabic">
+      <summary>
+            Kashmiri Arabic
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Kazakh">
+      <summary>
+            Kazakh
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Khmer">
+      <summary>
+            Khmer
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Kiche">
+      <summary>
+            Kiche
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Kinyarwanda">
+      <summary>
+            Kinyarwanda
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Kiswahili">
+      <summary>
+            Kiswahili
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Konkani">
+      <summary>
+            Konkani
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Korean">
+      <summary>
+            Korean
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Kyrgyz">
+      <summary>
+            Kyrgyz
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Lao">
+      <summary>
+            Lao
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Latin">
+      <summary>
+            Latin
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Latvian">
+      <summary>
+            Latvian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Lithuanian">
+      <summary>
+            Lithuanian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.LithuanianTrad">
+      <summary>
+            Lithuanian Traditional
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Lower_Sorbian">
+      <summary>
+            Lower Sorbian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Luxembourgish">
+      <summary>
+            Luxembourgish
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Macedonian">
+      <summary>
+            Macedonian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Malay_Brunei_Darussalam">
+      <summary>
+            Malay Brunei Darussalam
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Malay_Malaysia">
+      <summary>
+            Malay Malaysia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Malayalam">
+      <summary>
+            Malayalam
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Maltese">
+      <summary>
+            Maltese
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Manipuri">
+      <summary>
+            Manipuri
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Maori">
+      <summary>
+            Maori
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Mapudungun">
+      <summary>
+            Mapudungun
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Marathi">
+      <summary>
+            Marathi
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Mohawk">
+      <summary>
+            Mohawk
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Mongolian_Cyrillic">
+      <summary>
+            Mongolian Cyrillic
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Mongolian_Traditional">
+      <summary>
+            Mongolian Traditional
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Nepali_India">
+      <summary>
+            Nepali India
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Nepali_Nepal">
+      <summary>
+            Nepali Nepal
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Norwegian_Bokmal">
+      <summary>
+            Norwegian Bokmal
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Norwegian_Nynorsk">
+      <summary>
+            Norwegian Nynorsk
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Occitan">
+      <summary>
+            Occitan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Oromo">
+      <summary>
+            Oromo
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Pashto">
+      <summary>
+            Pashto
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Persian">
+      <summary>
+            Persian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Polish">
+      <summary>
+            Polish
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Portuguese_Brazil">
+      <summary>
+            Portuguese Brazil
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Portuguese_Portugal">
+      <summary>
+            Portuguese Portugal
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Punjabi_India">
+      <summary>
+            Punjabi India
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Punjabi_Pakistan">
+      <summary>
+            Punjabi Pakistan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Quechua_Bolivia">
+      <summary>
+            Quechua Bolivia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Quechua_Ecuador">
+      <summary>
+            Quechua Ecuador
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Quechua_Peru">
+      <summary>
+            Quechua Peru
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Romanian_Moldova">
+      <summary>
+            Romanian Moldova
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Romanian_Romania">
+      <summary>
+            Romanian Romania
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Romansh">
+      <summary>
+            Romansh
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Russian_Moldova">
+      <summary>
+            Russian Moldova
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Russian_Russia">
+      <summary>
+            Russian Russia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sami_Inari_Finland">
+      <summary>
+            Sami Inari Finland
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sami_Lule_Norway">
+      <summary>
+            Sami Lule Norway
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sami_Lule_Sweden">
+      <summary>
+            Sami Lule Sweden
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sami_Northern_Finland">
+      <summary>
+            Sami Northern Finland
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sami_Northern_Norway">
+      <summary>
+            Sami Northern Norway
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sami_Northern_Sweden">
+      <summary>
+            Sami Northern Sweden
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sami_Skolt_Finland">
+      <summary>
+            Sami Skolt Finland
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sami_Southern_Norway">
+      <summary>
+            Sami Southern Norway
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sami_Southern_Sweden">
+      <summary>
+            Sami Southern Sweden
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sanskrit">
+      <summary>
+            Sanskrit
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Serbian_Cyrillic_BosniaHerzegovina">
+      <summary>
+            Serbian Cyrillic BosniaHerzegovina
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Serbian_Cyrillic_Serbia">
+      <summary>
+            Serbian Cyrillic Serbia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Serbian_Latin_Bosnia_Herzegovina">
+      <summary>
+            Serbian Latin Bosnia Herzegovina
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Serbian_Latin_Serbia">
+      <summary>
+            Serbian Latin Serbia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sesotho_sa_Leboa_South_Africa">
+      <summary>
+            Sesotho sa Leboa South Africa
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Setswana">
+      <summary>
+            Setswana
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sindhi_Arabic">
+      <summary>
+            Sindhi Arabic
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sindhi_Devanagari">
+      <summary>
+            Sindhi Devanagari
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sinhala">
+      <summary>
+            Sinhala
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Slovak">
+      <summary>
+            Slovak
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Slovenian">
+      <summary>
+            Slovenian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Somali">
+      <summary>
+            Somali
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Argentina">
+      <summary>
+            Spanish Argentina
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Bolivia">
+      <summary>
+            Spanish Bolivia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Chile">
+      <summary>
+            Spanish Chile
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Colombia">
+      <summary>
+            Spanish Colombia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Costa_Rica">
+      <summary>
+            Spanish Costa Rica
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Dominican_Republic">
+      <summary>
+            Spanish Dominican Republic
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Ecuador">
+      <summary>
+            Spanish Ecuador
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_El_Salvador">
+      <summary>
+            Spanish El Salvador
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Guatemala">
+      <summary>
+            Spanish Guatemala
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Honduras">
+      <summary>
+            Spanish Honduras
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Mexico">
+      <summary>
+            Spanish Mexico
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Nicaragua">
+      <summary>
+            Spanish Nicaragua
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Panama">
+      <summary>
+            Spanish Panama
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Paraguay">
+      <summary>
+            Spanish Paraguay
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Peru">
+      <summary>
+            Spanish Peru
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Puerto_Rico">
+      <summary>
+            Spanish Puerto Rico
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Spain">
+      <summary>
+            Spanish Spain
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Traditional_Sort">
+      <summary>
+            Spanish Traditional Sort
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_United_States">
+      <summary>
+            Spanish United States
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Uruguay">
+      <summary>
+            Spanish Uruguay
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Spanish_Venezuela">
+      <summary>
+            Spanish Venezuela
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Sutu_South_Africa">
+      <summary>
+            Sutu South Africa
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Swedish_Finland">
+      <summary>
+            Swedish Finland
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Swedish_Sweden">
+      <summary>
+            Swedish Sweden
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Syriac">
+      <summary>
+            Syriac
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Tajik">
+      <summary>
+            Tajik
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Tamazight_Arabic_Morocco">
+      <summary>
+            Tamazight Arabic Morocco
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Tamazight_Latin_Algeria">
+      <summary>
+            Tamazight Latin Algeria
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Tamil">
+      <summary>
+            Tamil
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Tatar_Russia">
+      <summary>
+            Tatar Russia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Telugu_India">
+      <summary>
+            Telugu India
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Thai">
+      <summary>
+            Thai
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Tibetan">
+      <summary>
+            Tibetan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Tigrigna_Eritrea">
+      <summary>
+            Tigrigna Eritrea
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Tigrigna_Ethiopia">
+      <summary>
+            Tigrigna Ethiopia
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Tsonga">
+      <summary>
+            Tsonga
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Turkish">
+      <summary>
+            Turkish
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Turkmen">
+      <summary>
+            Turkmen
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Uighur">
+      <summary>
+            Uighur
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Ukrainian">
+      <summary>
+            Ukrainian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Upper_Sorbian">
+      <summary>
+            Upper Sorbian
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Urdu_Islamic_Republic_of_Pakistan">
+      <summary>
+            Urdu Islamic Republic of Pakistan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Urdu_India">
+      <summary>
+            Urdu India
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Uzbek_Cyrillic_Uzbekistan">
+      <summary>
+            Uzbek Cyrillic Uzbekistan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Uzbek_Latin_Uzbekistan">
+      <summary>
+            Uzbek Latin Uzbekistan
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Venda">
+      <summary>
+            Venda
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Vietnamese">
+      <summary>
+            Vietnamese
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Welsh">
+      <summary>
+            Welsh
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Wolof">
+      <summary>
+            Wolof
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Xhosa">
+      <summary>
+            Xhosa
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Yi_PRC">
+      <summary>
+            Yi PRC
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Yiddish">
+      <summary>
+            Yiddish
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.SpellingLanguage.Yoruba">
+      <summary>
+            Yoruba
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.PageNumberingAppearence">
+      <summary>
+            Specifies the page numbering: starting from the first page, from the second page or disabled.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\02. Add page numbers\sample.cs" title="Add page numbers using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\02. Add page numbers\sample.vb" title="Add page numbers using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PageNumberingAppearence.PageNumDisable">
+      <summary>
+            Disable page numbers.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PageNumberingAppearence.PageNumFirst">
+      <summary>
+            Page numbers start from 1st page.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PageNumberingAppearence.PageNumSecond">
+      <summary>
+            Page numbers start from 2nd page.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.PaperType">
+      <summary>
+            Specifies the paper size.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.A0">
+      <summary>
+            841 x 1189 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.A1">
+      <summary>
+            594 x 841 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.A2">
+      <summary>
+            420 x 594 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.A3">
+      <summary>
+            297 x 420 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.A4">
+      <summary>
+            210 x 297 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.A5">
+      <summary>
+            148 x 210 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.A6">
+      <summary>
+            105 x 148 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.A7">
+      <summary>
+            74 x 105 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.B0">
+      <summary>
+            1000 x 1414 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.B1">
+      <summary>
+            707 x 1000 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.B2">
+      <summary>
+            500 x 707 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.B3">
+      <summary>
+            353 x 500 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.B4">
+      <summary>
+            250 x 353 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.B5">
+      <summary>
+            176 x 250 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.B6">
+      <summary>
+            125 x 176 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.B7">
+      <summary>
+            88 x 125 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.C0">
+      <summary>
+            917 x 1297 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.C1">
+      <summary>
+            648 x 917 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.C2">
+      <summary>
+            458 x 648 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.C3">
+      <summary>
+            324 x 458 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.C4">
+      <summary>
+            229 x 324 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.C5">
+      <summary>
+            162 x 229 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.C6">
+      <summary>
+            114 x 162 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.C7">
+      <summary>
+            81 x 114 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.Letter">
+      <summary>
+            216 x 279 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.Legal">
+      <summary>
+            216 x 356 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.LedgerTabloid">
+      <summary>
+            279 x 432 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.Executive">
+      <summary>
+            190 x 254 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.Paper11x17">
+      <summary>
+            279 x 432 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.EnvelopeDL">
+      <summary>
+            110 x 220 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.EnvelopeC5">
+      <summary>
+            162 x 229 mm.
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.PaperType.EnvelopeC6">
+      <summary>
+            114 x 162 mm.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.MergeOptions">
+      <summary>
+            Specifies options to merge RTF documents.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\04. Merge and Replace\02. Merge two RTF documents in memory\sample.cs" title="Merge two RTF documents in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\04. Merge and Replace\02. Merge two RTF documents in memory\sample.vb" title="Merge two RTF documents in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.MergeOptions.PageBreakBetweenDocuments">
+      <summary>
+            Gets and sets the value indicating to insert a page break between merged RTF documents. Default value: false.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\04. Merge and Replace\02. Merge two RTF documents in memory\sample.cs" title="Merge two RTF documents in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\04. Merge and Replace\02. Merge two RTF documents in memory\sample.vb" title="Merge two RTF documents in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.TextSetup">
+      <summary>
+            Specifies a custom text formatting properties during the HTML conversion.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\04. Set single font family and size\sample.cs" title="Set single font family and size using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\04. Set single font family and size\sample.vb" title="Set single font family and size using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.TextSetup.DefaultFontFamily">
+      <summary>
+            Gets and sets the default font family for the input HTML document. Default value: "Times New Roman".
+            </summary>
+      <remarks>
+            This font family will be used as default for all HTML elements where font family value is missing.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.TextSetup.SingleFontFamily">
+      <summary>
+            Gets and sets a single font family for the whole HTML document. Default value: <see cref="F:System.String.Empty">String.Empty</see>.
+            </summary>
+      <remarks>By default, the output document will have the same font families as the source HTML document.<br /><br />Please be careful with this property, it resets all font families to a single.</remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\04. Set single font family and size\sample.cs" title="Set single font family and size using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\04. Set single font family and size\sample.vb" title="Set single font family and size using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.TextSetup.DefaultFontSize">
+      <summary>
+            Gets and sets the default font size in points. Default value: 12f.
+            </summary>
+      <remarks>
+            This font size will be used as default for all HTML elements where font size value is missing.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.TextSetup.SingleFontSize">
+      <summary>
+            Gets and sets a single font size for the input HTML document. Default value: null.
+            </summary>
+      <remarks>By default, the output document will have the same font sizes as the source HTML document.<br /><br />Please be careful with this property, it resets all font sizes to a single.</remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\04. Set single font family and size\sample.cs" title="Set single font family and size using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\04. Set single font family and size\sample.vb" title="Set single font family and size using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.TextSetup.DefaultTextColor">
+      <summary>
+            Gets and sets the default font color. Default value: Black.
+            </summary>
+      <remarks>
+            This font color will be used as default for all HTML text-elements where font color value is missing.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.TextSetup.SingleFontColor">
+      <summary>
+            Gets and sets a single font color for the whole HTML document. Default value: null.
+            </summary>
+      <remarks>By default, the output document will have the same font colors as the source HTML document.<br /><br />Please be careful with this property, it resets all font colors to a single.</remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\04. Set single font family and size\sample.cs" title="Set single font family and size using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\04. Set single font family and size\sample.vb" title="Set single font family and size using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.TextSetup.#ctor">
+      <summary>
+            Specifies a custom text formatting properties during the HTML conversion.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\04. Set single font family and size\sample.cs" title="Set single font family and size using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\04. Set single font family and size\sample.vb" title="Set single font family and size using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.PageSetup">
+      <summary>
+            Represents the Page properties: Paper type, Orientation, Margins, Headers and footers, page numbering and so forth.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageSetup.Orientation">
+      <summary>
+            Gets or sets the page orientation.
+            </summary>
+      <remarks>
+            Changing of <see cref="P:SautinSoft.HtmlToRtf.PageSetup.Orientation" /> property swaps values of 
+            <see cref="P:SautinSoft.HtmlToRtf.PageSetup.PageWidth" /> and 
+            <see cref="P:SautinSoft.HtmlToRtf.PageSetup.PageHeight" /> properties.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageSetup.PageHeight">
+      <summary>
+            Gets or sets the height of the page in desired measurement units.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageSetup.PageMargins">
+      <summary>
+            Gets or sets the page margins.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageSetup.PageNumbers">
+      <summary>
+             Allows to set a custom page numbering in the result RTF or DOCX document. 
+             </summary>
+      <remarks>
+             Using this property you may set custom page numbers as you wish. Use this property together with the <see cref="P:SautinSoft.HtmlToRtf.PageNumbers.Appearance" />, <see cref="P:SautinSoft.HtmlToRtf.PageNumbers.AlignH" /> and <see cref="P:SautinSoft.HtmlToRtf.PageNumbers.AlignV" />.
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageSetup.PageWidth">
+      <summary>
+            Gets or sets the width of the page in desired measurement units.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageSetup.PageHeader">
+      <summary>
+            Gets or sets page header in various formats: HTML, RTF or Text.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\01. Add page header and footer\sample.cs" title="Add page header and footer using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\01. Add page header and footer\sample.vb" title="Add page header and footer using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageSetup.PageFooter">
+      <summary>
+            Gets or sets page footer in various formats: HTML, RTF or Text.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\01. Add page header and footer\sample.cs" title="Add page header and footer using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\01. Add page header and footer\sample.vb" title="Add page header and footer using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageSetup.PaperType">
+      <summary>
+            Gets or sets the type of the paper for the page.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.PageSetup.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:SautinSoft.HtmlToRtf.PageSetup" /> class.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.PageMargins">
+      <summary>
+            Represents page margins.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageMargins.Bottom">
+      <summary>
+            Gets or sets the bottom margin in desired measurement units.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageMargins.Footer">
+      <summary>
+            Gets or sets the footer margin in desired measurement units.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageMargins.Gutter">
+      <summary>
+            Gets or sets the gutter margin in desired measurement units.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageMargins.Header">
+      <summary>
+            Gets or sets the header margin in desired measurement units.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageMargins.Left">
+      <summary>
+            Gets or sets the left margin in desired measurement units.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageMargins.Right">
+      <summary>
+            Gets or sets the right margin in desired measurement units.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageMargins.Top">
+      <summary>
+            Gets or sets the top margin in desired measurement units.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.PageMargins.Clone">
+      <summary>
+            Clones this <see cref="T:SautinSoft.HtmlToRtf.PageMargins" /> instance.
+            </summary>
+      <returns>
+            Cloned <see cref="T:SautinSoft.HtmlToRtf.PageMargins" />.
+            </returns>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.PageMargins.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:SautinSoft.HtmlToRtf.PageMargins" /> class.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.PageNumbers">
+      <summary>
+             Allows to set a custom page numbering in the output RTF or DOCX document. 
+             </summary>
+      <remarks>Using this property you may set custom page numbers as you wish. Use this property together with the <see cref="!:SautinSoft.HtmlToRtf.CPageStyle.CPageNumbers.Appearance" />, <see cref="!:SautinSoft.HtmlToRtf.CPageStyle.CPageNumbers.AlignH" /> and <see cref="!:SautinSoft.HtmlToRtf.CPageStyle.CPageNumbers.AlignV" />.<br /><br />            
+             These are special keywords to set the custom page numbering:<br /><br /><b>{page}</b> - Current page number.<br /><b>{numpages}</b> - Total pages.<br />
+             By default: Page numbers are located at the left-bottom of the page and represent digit(s), for example "1".<br /><br />
+             These are samples of using this property:<br /><br />
+             HtmlConvertOptions opt = new HtmlConvertOptions();
+             opt.PageSetup.PageNumbers.Format = "Page {page} of {numpages}";<br /><br />
+             opt.PageSetup.PageNumbers.Format = "This is page number {page}";<br /><br />
+             opt.PageSetup.PageNumbers.Format = "Seite {page} von {numpages}";<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\02. Add page numbers\sample.cs" title="Add page numbers using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\02. Add page numbers\sample.vb" title="Add page numbers using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageNumbers.Appearance">
+      <summary>
+            Gets and sets the page numbering. Default value: <see cref="F:SautinSoft.HtmlToRtf.PageNumberingAppearence.PageNumDisable" />.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\02. Add page numbers\sample.cs" title="Add page numbers using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\02. Add page numbers\sample.vb" title="Add page numbers using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageNumbers.Font">
+      <summary>
+            Allows to set up custom font family and size for the page numbering string.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\02. Add page numbers\sample.cs" title="Add page numbers using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\02. Add page numbers\sample.vb" title="Add page numbers using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageNumbers.Format">
+      <summary>
+             Specify the formatted string with page numbering, for example: "Page {page} of {numpages}". Default value: "Page {page} of {numpages}". 
+             </summary>
+      <remarks>Using this property you may set custom page numbers as you wish. Use this property together with the "PageStyle.CageNumbers.Appearance", "PageStyle.PageNumbers.AlignH" and "PageStyle.PageNumbers.AlignV".<br /><br />            
+             These are special keywords to set the custom page numbering:<br /><br /><b>{page}</b> - Current page number.<br /><b>{numpages}</b> - Total pages.<br />
+             By default: Page numbers are located at the left-bottom of the page and represent digit(s), for example "1".<br /><br />
+             These are samples of using this property:<br /><br />
+             HtmlConvertOptions opt = new HtmlConvertOptions();
+             opt.PageSetup.PageNumbers.Format = "Page {page} of {numpages}";<br /><br />
+             opt.PageSetup.PageNumbers.Format = "This is page number {page}";<br /><br />
+             opt.PageSetup.PageNumbers.Format = "Seite {page} von {numpages}";<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\02. Add page numbers\sample.cs" title="Add page numbers using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\02. Add page numbers\sample.vb" title="Add page numbers using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageNumbers.AlignV">
+      <summary>
+            Get and set the vertical alignment for the page numbering.
+            </summary>
+      <remarks>
+            Default value: <see cref="F:SautinSoft.HtmlToRtf.Alignment.Bottom">Bottom</see>.
+            </remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\02. Add page numbers\sample.cs" title="Add page numbers using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\02. Add page numbers\sample.vb" title="Add page numbers using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageNumbers.AlignH">
+      <summary>
+            Get and set the horizontal alignment for the page numbering.
+            </summary>
+      <remarks>
+            Default value: <see cref="F:SautinSoft.HtmlToRtf.Alignment.Center">Center</see>.
+            </remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\02. Add page numbers\sample.cs" title="Add page numbers using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\02. Add page numbers\sample.vb" title="Add page numbers using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageNumbers.X">
+      <summary>
+            Get and set the position of page numbering by horizontal in desired measurement units. Starts from the top left page corner.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.PageNumbers.Y">
+      <summary>
+            Get and set the position of page numbering by vertical in desired measurement units. Starts from the top left page corner.
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.LengthUnit">
+      <summary>
+            Allows to specify values in millimeters, inches and twips (twentieth of a point, 1 point is equal as 20 twips).
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.LengthUnit.#ctor(System.Double,SautinSoft.HtmlToRtf.Units)">
+      <summary>
+            Creates a new instance of <see cref="T:SautinSoft.HtmlToRtf.LengthUnit" /> class 
+            </summary>
+      <param name="val">Value in ...</param>
+      <param name="units">Units in ...</param>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.LengthUnit.Points">
+      <summary>
+            Get the value in points.
+            </summary>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.LengthUnit.Inch(System.Double)">
+      <summary>
+            Set a value in inches.
+            </summary>
+      <param name="val">Value in inches</param>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.LengthUnit.Pt(System.Double)">
+      <summary>
+            Set value in points.
+            </summary>
+      <param name="val">Value in points</param>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.LengthUnit.Mm(System.Double)">
+      <summary>
+            Set a value in millimeters.
+            </summary>
+      <param name="val">Value in millimeters</param>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.LengthUnit.Twips(System.Int32)">
+      <summary>
+            Specify the value in twips. Twip (twentieth of a point, 1 point is equal as 20 twips).
+            </summary>
+      <param name="val">Value in twips</param>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.Font">
+      <summary>
+            Allows to set font properties: face and size.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.Font.Size">
+      <summary>
+            Allows to set font size
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.Font.Face">
+      <summary>
+            Gets and sets the page numbering Font Family. Default value: "Arial".
+            </summary>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.HeaderFooter">
+      <summary>
+            Class which allows to specify header and footer in HTML, RTF or Text formats.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\01. Add page header and footer\sample.cs" title="Add page header and footer using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\01. Add page header and footer\sample.vb" title="Add page header and footer using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.HeaderFooter.#ctor">
+      <summary>
+            Creates a new instance of the <see cref="T:SautinSoft.HtmlToRtf.HeaderFooter">SautinSoft.HtmlToRtf.CHeaderFooter</see> class
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\01. Add page header and footer\sample.cs" title="Add page header and footer using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\01. Add page header and footer\sample.vb" title="Add page header and footer using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HeaderFooter.MarginTop">
+      <summary>
+            Get and set the top margin for page header/footer in desired measurement units.
+            </summary>
+      <remarks>This margin will be summed with the page margin.<br /></remarks>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HeaderFooter.MarginBottom">
+      <summary>
+            Get and set the bottom margin for page header/footer in desired measurement units.
+            </summary>
+      <remarks>This margin will be summed with the page margin.<br /></remarks>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.HeaderFooter.Clear">
+      <summary>
+            Clears the header/footer settings.
+            </summary>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.HeaderFooter.FromHtmlURL(System.String)">
+      <summary>
+            Set page header/footer from HTML document using URL.
+            </summary>
+      <param name="url">URL as string</param>
+      <remarks>We don't recommend to use complex web-sites as header or footer. The best is using simple HTML table with text and images as header/footer.<br /><br /></remarks>
+      <example>
+        <code>
+            SautinSoft.HtmlToRtf h = new SautinSoft.HtmlToRtf();
+            HtmlConvertOptions opt = new HtmlConvertOptions();
+            opt.PageSetup.PageHeader.FromHtmlURL(@"http://mysite.com/header.htm");
+            </code>
+        <code lang="vbnet">
+            Dim h As New SautinSoft.HtmlToRtf()
+            Dim opt As New HtmlConvertOptions()
+            opt.PageSetup.PageHeader.FromHtmlURL("http://mysite.com/header.htm")
+            </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.HeaderFooter.FromHtmlFile(System.String)">
+      <summary>
+            Set page header/footer from any HTML file.
+            </summary>
+      <param name="path">Path to local HTML file</param>
+      <remarks>We don't recommend to use complex HTML documents as header or footer. The best is using simple HTML table with text and images as header/footer.<br /><br /></remarks>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.HeaderFooter.FromRtfFile(System.String)">
+      <summary>
+            Set page header/footer from local RTF file.
+            </summary>
+      <param name="path">Path to local RTF file</param>
+      <remarks>This method is very usefull when you want to insert header/footer from existing RTF document<br /><br /></remarks>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.HeaderFooter.Html(System.String)">
+      <summary>
+            Set page header/footer from any HTML string.
+            </summary>
+      <param name="html">String in HTML format</param>
+      <remarks>We don't recommend to use complex HTML documents as header or footer. The best is using simple HTML table with text and images as header/footer.<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\01. Add page header and footer\sample.cs" title="Add page header and footer using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\01. Add page header and footer\sample.vb" title="Add page header and footer using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.HeaderFooter.Text(System.String)">
+      <summary>
+            Set simple text string in header/footer
+            </summary>
+      <param name="text">Any string with text</param>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.HeaderFooter.Rtf(System.String)">
+      <summary>
+            Set page header/footer in RTF format.
+            </summary>
+      <param name="rtf">String in RTF format which you want to place in header/footer</param>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\01. Add page header and footer\sample.cs" title="Add page header and footer using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\01. Add page header and footer\sample.vb" title="Add page header and footer using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.ExceptionList">
+      <summary>
+            Allows to get list with all arisen exceptions during the one conversion cycle.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.MergeSetup">
+      <summary>
+            Gets and sets options to merge RTF documents.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\04. Merge and Replace\02. Merge two RTF documents in memory\sample.cs" title="Merge two RTF documents in memory using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\04. Merge and Replace\02. Merge two RTF documents in memory\sample.vb" title="Merge two RTF documents in memory using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.SetLicense(System.String)">
+      <summary>
+        <br>Activate your copy after purchasing or use temporary license for delete trial message. ATTENTION: specify this property first of all before creating the instance of HTML to RTF .Net!</br>
+        <br>Use it when you got own license. We offer two license types:</br>
+        <br>Permanent license from <see href="https://sautinsoft.com/order.php">sautinsoft.com</see> and</br>
+        <br>Temporary license from <see href="https://sautinsoft.com/start-for-free/">https://sautinsoft.com/start-for-free/</see>.</br>
+        <br>Have question? Ask us: <see href="mailto:support@sautinsoft.com">support@sautinsoft.com</see>.</br>
+      </summary>
+      <param name="license">A string which contains a license. To get a permanent license, visit <see href="https://sautinsoft.com/order.php">sautinsoft.com</see>. To get a temporary license, please use online form here: <see href="https://sautinsoft.com/start-for-free/" />.</param>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\06. Product Activation\01. Activation\sample.cs" title="Product Activation using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\06. Product Activation\01. Activation\sample.vb" title="Product Activation using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:SautinSoft.HtmlToRtf">SautinSoft.HtmlToRtf</see> class.
+            </summary>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:SautinSoft.HtmlToRtf">SautinSoft.HtmlToRtf</see>.
+            </summary>
+      <param name="license">Allows to pass your license key using constructor.</param>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.Alignment">
+      <summary>
+            Allows to specify default alignment. 
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Alignment.Left">
+      <summary>
+            Left
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Alignment.Right">
+      <summary>
+            Right
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Alignment.Center">
+      <summary>
+            Center
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Alignment.Justify">
+      <summary>
+            Justify
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Alignment.Top">
+      <summary>
+            Top
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Alignment.Bottom">
+      <summary>
+            Bottom
+            </summary>
+    </member>
+    <member name="F:SautinSoft.HtmlToRtf.Alignment.Undefined">
+      <summary>
+            Undefined (only for internal needs of the component)
+            </summary>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.Convert(System.IO.Stream,System.IO.Stream,SautinSoft.HtmlToRtf.HtmlConvertOptions)">
+      <summary>
+            Converts HTML to DOCX, RTF or Text documents using specified streams. 
+            </summary>
+      <param name="inpHtml">The stream from which to load input HTML document.</param>
+      <param name="outDocument">The stream in which to save the resulting DOCX, RTF or Text document.</param>
+      <param name="opt">Options to control HTML converting and adjust the output document.</param>
+      <returns>Returns true in case of converting successfully, otherwise false.<br />
+            In case of false, see <see cref="P:SautinSoft.HtmlToRtf.ExceptionList" /> to find more information about the issues.
+            </returns>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.Convert(System.String,System.String,SautinSoft.HtmlToRtf.HtmlConvertOptions)">
+      <summary>
+            Converts HTML to DOCX, RTF or Text documents using file paths.
+            </summary>
+      <param name="inpHtmlPath">The absolute, relative or url path to the input HTML document.</param>
+      <param name="outDocumentPath">The absolute or relative path to the resulting DOCX, RTF or Text document.</param>
+      <param name="opt">Options to control HTML converting and adjust the output document.</param>
+      <returns>Returns true in case of converting successfully, otherwise false.<br />
+            In case of false, see <see cref="P:SautinSoft.HtmlToRtf.ExceptionList" /> to find more information about the issues.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\02. HTML to RTF\01. Convert HTML to RTF file\sample.cs" title="Convert HTML to RTF file using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\02. HTML to RTF\01. Convert HTML to RTF file\sample.vb" title="Convert HTML to RTF file using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.Convert(System.Byte[],System.Byte[]@,SautinSoft.HtmlToRtf.HtmlConvertOptions)">
+      <summary>
+            Converts HTML to DOCX, RTF or Text documents using byte arrays.
+            </summary>
+      <param name="inpHtml">Input HTML document as array of bytes.</param>
+      <param name="outDocument">DOCX, RTF or Text document as array of bytes.</param>
+      <param name="opt">Options to control HTML converting and adjust the output document.</param>
+      <returns>Returns true in case of converting successfully, otherwise false.<br />
+            In case of false, see <see cref="P:SautinSoft.HtmlToRtf.ExceptionList" /> to find more information about the issues.
+            </returns>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\01. HTML to DOCX\01. Convert HTML to DOCX bytes\sample.cs" title="Convert HTML to DOCX bytes using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\01. HTML to DOCX\01. Convert HTML to DOCX bytes\sample.vb" title="Convert HTML to DOCX bytes using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.BeforeImageDownloadEventHandler">
+      <summary>
+            Delegate to call method before downloading http images.
+            </summary>
+      <param name="aRequest">HttpWebRequest</param>
+      <remarks>
+            Allows to adjust the webrequest object.
+            </remarks>
+    </member>
+    <member name="E:SautinSoft.HtmlToRtf.BeforeImageDownload">
+      <summary>
+            Event which appears before downloading http images
+            </summary>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.MergeRtfFile(System.String,System.String,System.String)">
+      <summary>
+            Merge two RTF files and create new single RTF document. Output file will be overwritten.
+            </summary>
+      <remarks>A merged RTF document will contain 1st RTF document and next 2nd RTF document by order.<br /><br /></remarks>
+      <param name="rtfFilePath1">Path to 1st RTF document</param>
+      <param name="rtfFilePath2">Path to 2nd RTF document</param>
+      <param name="singleMergedRtf">Local path to save output RTF</param>
+      <returns>
+            0 - merged successfully<br />
+            1 - can't open 1st RTF document<br />        
+            2 - can't open 2nd RTF document<br />        
+            3 - merging failed<br />
+            4 - can't create output file, check the output path<br /></returns>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.MergeRtfFile(System.String,System.String,System.String,System.Text.Encoding)">
+      <summary>
+            Merge two RTF files and create new single RTF document. Output file will be overwritten.
+            </summary>
+      <remarks>A merged RTF document will contain 1st RTF document and next 2nd RTF document by order.<br /><br /></remarks>
+      <param name="rtfFilePath1">Path to 1st RTF document</param>
+      <param name="rtfFilePath2">Path to 2nd RTF document</param>
+      <param name="singleMergedRtf">Local path to save output RTF</param>
+      <param name="encoding">The encoding of the processing RTF documents.</param>
+      <returns>
+            0 - merged successfully<br />
+            1 - can't open 1st RTF document<br />        
+            2 - can't open 2nd RTF document<br />        
+            3 - merging failed<br />
+            4 - can't create output file, check the output path<br /></returns>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.MergeAndReplaceRtfFileFromFile(System.String,System.String,System.String,System.String)">
+      <summary>
+            Replaces all matches of string "whatReplaceInRtf" in RTF file "rtfSourcePath" by the content of file "wherewithReplaceRtfPath".
+            </summary>
+      <param name="sourcePath">Path to source RTF file</param>
+      <param name="textToReplace">Textual string which will be replaced by the new string "wherewithReplaceInRtf"</param>
+      <param name="wherewithReplaceRtfPath">Path to RTF file which will be inserted into source RTF</param>
+      <param name="resultPath">Path to new merged RTF file. A fill will be overwritten</param>
+      <remarks>Creates a new RTF file "resultPath"<br /><br /></remarks>
+      <returns>
+            0 - merged successfully<br />
+            1 - can't open RTF source file<br />        
+            2 - can't open 'wherewithReplaceRtfPath' file<br />        
+            3 - merging failed<br />
+            4 - can't create output file, check the output path<br /></returns>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.MergeAndReplaceRtfFileFromString(System.String,System.String,System.String,System.String)">
+      <summary>
+            Replaces all matches of the textual string "textToReplace" in RTF file "rtfSourcePath" by the RTF string "wherewithReplaceRtf".
+            </summary>
+      <remarks>Creates a new RTF file. The file will be overwritten.<br /><br /></remarks>
+      <param name="sourcePath">A path to a RTF source file.</param>
+      <param name="textToReplace">Textual string which will be replaced by the new string "wherewithReplaceInRtf"</param>
+      <param name="wherewithReplaceRtf">String which will be inserted instead of "textToReplace"</param>
+      <param name="resultPath">A path to a resulted RTF document. The file will be overwritten.</param>
+      <returns>
+            0 - Replaced successfully.<br />
+            1 - Can't open RTF source file.<br />
+            3 - merging failed.<br />
+            4 - can't create output file, check the output path.<br /></returns>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.MergeAndReplaceRtfString(System.String,System.String,System.String)">
+      <summary>
+            Replaces all matches of the string "textToReplace" by the string "wherewithReplaceInRtf" and returns a new RTF document.
+            </summary>
+      <param name="rtfSource">Source RTF document where to search matches of "whatReplaceInRtf"</param>
+      <param name="textToReplace">Textual string which will be replaced by the new string "wherewithReplaceInRtf"</param>
+      <param name="wherewithReplaceInRtf">String in RTF format which will be used to replace all matches of string "textToReplace"</param>
+      <returns>A new RTF document based on rtfSource<br />
+            null - in case of operation failed
+            </returns>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.MergeRtfString(System.String,System.String)">
+      <summary>
+            Merge two RTF strings and create new single RTF document
+            </summary>
+      <param name="rtf1">1st RTF document as string</param>
+      <param name="rtf2">2nd RTF document as string</param>
+      <remarks>A merged RTF document will contain 1st RTF document and next 2nd RTF document by order.<br /><br /></remarks>
+      <returns>A merged RTF document or empty string in case of merging failed</returns>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.MergeRtfString(System.String,System.String,System.Text.Encoding)">
+      <summary>
+            Merge two RTF strings and create new single RTF document
+            </summary>
+      <param name="rtf1">1st RTF document as string</param>
+      <param name="rtf2">2nd RTF document as string</param>
+      <param name="encoding">The encoding of the processing RTF documents.</param>
+      <remarks>A merged RTF document will contain 1st RTF document and next 2nd RTF document by order.<br /><br /></remarks>
+      <returns>A merged RTF document or empty string in case of merging failed</returns>
+    </member>
+    <member name="T:SautinSoft.HtmlToRtf.HtmlConvertOptions">
+      <summary>
+            All options to control HTML converting and adjust the output document.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.OutputFormat">
+      <summary>
+            The output document format: DOCX, RTF, Text ansi or Unicode Text. Default value: <see cref="F:SautinSoft.HtmlToRtf.OutputFormat.Rtf" />.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\01. HTML to DOCX\03. Convert HTML to DOCX Stream\sample.cs" title="Convert HTML to DOCX Stream using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\01. HTML to DOCX\03. Convert HTML to DOCX Stream\sample.vb" title="Convert HTML to DOCX Stream using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.SpellingLanguage">
+      <summary>
+            Default language for checking the document spelling and grammar. Default value: <see cref="F:SautinSoft.HtmlToRtf.SpellingLanguage.English_United_States" />.
+            </summary>
+      <remarks>For example, if you'll open output DOCX or RTF document in Microsoft Word it will check spelling and grammar according to the specified language.</remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\05. Set language for spelling tools\sample.cs" title="Set language for spelling tools using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\05. Set language for spelling tools\sample.vb" title="Set language for spelling tools using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.TableAutoFit">
+      <summary>
+            Gets or sets a value indicating whether the table shall automatically resize to fit contents. Default value: false.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.TableBorderVisibility">
+      <summary>
+            Gets and sets visibility for borders in all tables in the document. Default value: <see cref="F:SautinSoft.HtmlToRtf.BorderVisibility.SameAsOriginalHtml" />.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.TableFitWidthByPage">
+      <summary>
+            Gets or sets a value indicating to automatically decrease a table width if it greater than page width. Default value: true.
+            </summary>
+      <remarks>        
+            If you want to preserve a table width even if it exceeds the page width, set this property to false.<br />
+            This property affects only to the tables which have a width greater than the page width. 
+            </remarks>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.PreserveImages">
+      <summary>
+            Preserve images or skip them. Default value: true.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.PreserveHyperlinks">
+      <summary>
+            Preserve Hyperlinks or skip them. Default value: true.
+            </summary>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.TextSetup">
+      <summary>
+            Gets and sets properties to change text formatting during the conversion from HTML: font family, size and color.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\04. Set single font family and size\sample.cs" title="Set single font family and size using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\04. Set single font family and size\sample.vb" title="Set single font family and size using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.PageSetup">
+      <summary>
+            Gets and sets the page setup properties: Paper type, Orientation, Margins, Headers and footers, page numbering and so forth.
+            </summary>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\05. Properties and Settings\03. Set page size and margins\sample.cs" title="Set page size and margins using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\05. Properties and Settings\03. Set page size and margins\sample.vb" title="Set page size and margins using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.Encoding">
+      <summary>
+            Gets and sets the encoding for an input HTML document. Default value: <see cref="F:SautinSoft.HtmlToRtf.Encoding.AutoDetect" />.
+            </summary>
+      <remarks>Allows to set encoding of input HTML document. By default this property is set to <see cref="F:SautinSoft.HtmlToRtf.Encoding.AutoDetect" />.
+            This means that the component will try to detect encoding by itself from the tag &lt;meta ... charset=..."&gt;.<br /><br /></remarks>
+    </member>
+    <member name="P:SautinSoft.HtmlToRtf.HtmlConvertOptions.BaseURL">
+      <summary>
+            It's target path of the HTML document base location.
+            </summary>
+      <remarks>This is very important property when you are converting HTML document in memory. Specify a BaseURL that is it will convert all relative URLs on that page to absolute URLs.
+            <br /><br />For example, lets convert HTML string to RTF file.<br /><br />
+            If we've specified:<br /><br />
+            HtmlConvertOptions opt = new HtmlConvertOptions();
+            opt.BaseURL = @"d:\my webs";<br /><br />
+            When the component meets 'src="images/asterisk.jpg"' it will try to open it from: "d:\my webs\images\asterisk.jpg"<br /><br /></remarks>
+      <example>
+        <code lang="cs" source="..\Packages\HTML to RTF .Net\Code samples\CSharp\02. HTML to RTF\05. Convert HTML url to RTF file\sample.cs" title="Convert HTML url to RTF file using C#">
+        </code>
+        <code lang="vbnet" source="..\Packages\HTML to RTF .Net\Code samples\VB.Net\02. HTML to RTF\05. Convert HTML url to RTF file\sample.vb" title="Convert HTML url to RTF file using VB.Net">
+        </code>
+      </example>
+    </member>
+    <member name="M:SautinSoft.HtmlToRtf.HtmlConvertOptions.#ctor">
+      <summary>
+            Create HTML converting options.
+            </summary>
+    </member>
+    <!-- Badly formed XML comment ignored for member "T:BidiSharp.BidiPBA" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ChannelDefinitionMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ChannelDefinitionMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ChannelDefinitionMapper.getFixedPoint(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ColorSpaceMapper.getFixedPoint(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ColorSpaceMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.ColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.EnumeratedColorSpaceMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.EnumeratedColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.EsRgbColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.ToString" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.PalettizedColorSpaceMapper.getCompImgHeight(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.Resampler.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.Resampler.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.SYccColorSpaceMapper.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Color.SYccColorSpaceMapper.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Icc.ICCProfiler.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.Icc.ICCProfiler.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.Icc.Tags.ICCTag" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.codestream.ProgressionType" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.codestream.reader.PktDecoder.ttIncl" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.codestream.writer.BitOutputBuffer" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.codestream.writer.BitOutputBuffer.Length" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.codestream.writer.BitOutputBuffer.Buffer" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.BitOutputBuffer.writeBit(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.BitOutputBuffer.writeBits(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.CodestreamWriter.writePacketHead(System.Byte[],System.Int32,System.Boolean,System.Boolean,System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.codestream.writer.FileCodestreamWriter" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.FileCodestreamWriter.writePacketHead(System.Byte[],System.Int32,System.Boolean,System.Boolean,System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.codestream.writer.FileCodestreamWriter.writePacketBody(System.Byte[],System.Int32,System.Boolean,System.Boolean,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.codestream.writer.PktEncoder.prevtIdxs" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.entropy.CBlkSizeSpec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.CBlkSizeSpec.getCBlkWidth(System.Byte,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.entropy.decoder.EntropyDecoder" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.EntropyDecoder.getSynSubbandTree(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.MQDecoder.fastDecodeSymbols(System.Int32[],System.Int32,System.UInt32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.MQDecoder.decodeSymbols(System.Int32[],System.Int32[],System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.MQDecoder.decodeSymbol(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.MQDecoder.init" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.state" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.getCodeBlock(System.Int32,System.Int32,System.Int32,CSJ2K.j2k.wavelet.synthesis.SubbandSyn,CSJ2K.j2k.image.DataBlk)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.magRefPass(CSJ2K.j2k.image.DataBlk,CSJ2K.j2k.entropy.decoder.MQDecoder,System.Int32,System.Int32[],System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.rawMagRefPass(CSJ2K.j2k.image.DataBlk,CSJ2K.j2k.entropy.decoder.ByteToBitInput,System.Int32,System.Int32[],System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.decoder.StdEntropyDecoder.cleanuppass(CSJ2K.j2k.image.DataBlk,CSJ2K.j2k.entropy.decoder.MQDecoder,System.Int32,System.Int32[],System.Int32[],System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.encoder.EBCOTRateAllocator.getAllCodeBlocks" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.encoder.EntropyCoder.isReversible(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.entropy.encoder.MQCoder" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.entropy.encoder.MQCoder.fastCodeSymbols(System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.entropy.PrecinctSizeSpec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.fileformat.reader.FileFormatReader.readJP2HeaderBox(System.Int64,System.Int32,System.Int64)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.fileformat.reader.FileFormatReader.readContiguousCodeStreamBox(System.Int64,System.Int32,System.Int64)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.BlkImgDataSrc" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.BlkImgDataSrc.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.BlkImgDataSrc.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgData.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataAdapter.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataConverter.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataConverter.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataJoiner.#ctor(CSJ2K.j2k.image.BlkImgDataSrc[],System.Int32[])" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataJoiner.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataJoiner.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.ImgDataJoiner.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.input.ImgReaderPGM" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGM.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGM.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGM.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.input.ImgReaderPGX" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGX.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGX.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPGX.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.input.ImgReaderPPM" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPPM.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPPM.getInternCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.input.ImgReaderPPM.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.getFixedPoint(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.getCompData(CSJ2K.j2k.image.DataBlk,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.setTile(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.invcomptransf.InvCompTransf.nextTile" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.output.ImgWriterPGM" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.output.ImgWriterPGM.#ctor(System.String,CSJ2K.j2k.image.BlkImgDataSrc,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.output.ImgWriterPGX" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.output.ImgWriterPGX.#ctor(System.String,CSJ2K.j2k.image.BlkImgDataSrc,System.Int32,System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.image.output.ImgWriterPPM" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.output.ImgWriterPPM.write" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.output.ImgWriterPPM.writeHeaderInfo" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.image.Tiler.#ctor(CSJ2K.j2k.image.BlkImgDataSrc,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.io.BinaryDataOutput" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.io.BinaryDataOutput.writeByte(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.io.BinaryDataOutput.writeShort(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.io.BufferedRandomAccessFile" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.io.BufferedRandomAccessFile.writeByte(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.io.EndianType_Fields" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.JJ2KExceptionHandler" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.JJ2KExceptionHandler.handleException(System.Exception)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.ModuleSpec.parseIdx(System.String,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.NotImplementedError" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.NotImplementedError.#ctor" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.quantization.dequantizer.CBlkQuantDataSrcDec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.dequantizer.Dequantizer.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.dequantizer.Dequantizer.getSynSubbandTree(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.dequantizer.Dequantizer.setTile(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.dequantizer.Dequantizer.nextTile" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.quantization.dequantizer.StdDequantizerParams.exp" -->
+    <!-- Badly formed XML comment ignored for member "F:CSJ2K.j2k.quantization.dequantizer.StdDequantizerParams.nStep" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.quantization.QuantizationType_Fields" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.quantization.quantizer.Quantizer.getAnSubbandTree(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.quantization.QuantTypeSpec" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.roi.encoder.ArbROIMaskGenerator" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.roi.encoder.ArbROIMaskGenerator.getROIMask(CSJ2K.j2k.image.DataBlkInt,CSJ2K.j2k.wavelet.Subband,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.roi.encoder.ArbROIMaskGenerator.makeMask(CSJ2K.j2k.wavelet.Subband,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.roi.encoder.RectROIMaskGenerator" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.roi.encoder.RectROIMaskGenerator.getROIMask(CSJ2K.j2k.image.DataBlkInt,CSJ2K.j2k.wavelet.Subband,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.roi.encoder.ROIMaskGenerator" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.roi.encoder.ROIScaler" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.roi.ROIDeScaler.getSynSubbandTree(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.StringSpec.#ctor(System.Int32,System.Int32,System.Byte,System.String,System.String[],CSJ2K.j2k.util.ParameterList)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.util.FacilityManager" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.util.ISRandomAccessIO" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.util.MsgLogger_Fields" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.MsgPrinter.nextLineEnd(System.String,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.MsgPrinter.nextWord(System.String,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ParameterList.parseArgs(System.String[])" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.util.ThreadPool" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.ThreadPoolThread.Run" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.#ctor(System.Int32,System.Int32,System.String)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.runTarget(IThreadRunnable,System.Object)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.runTarget(IThreadRunnable,System.Object,System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.clearTargetErrors" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.putInIdleList(CSJ2K.j2k.util.ThreadPool.ThreadPoolThread)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.util.ThreadPool.getIdle(System.Boolean)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloat" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.SynLowNegSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.SynLowPosSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.SynHighNegSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.SynHighPosSupport" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.analyze_lpf(System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32,System.Single[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.analyze_hpf(System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32,System.Single[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.getLPSynthesisFilter" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.getHPSynthesisFilter" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.isSameAsFullWT(System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterFloatLift9x7.Equals(System.Object)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.analysis.AnWTFilterInt" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterIntLift5x3.analyze_hpf(System.Int32[],System.Int32,System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32,System.Int32[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterSpec.getHFilters(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.analysis.AnWTFilterSpec.getVFilters(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.CBlkWTDataSrcDec.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.InvWTFull.getNomRangeBits(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.MultiResImgDataAdapter.getCompImgHeight(System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.synthesis.SynWTFilter" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloat" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.SynLowNegSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.SynLowPosSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.SynHighNegSupport" -->
+    <!-- Badly formed XML comment ignored for member "P:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.SynHighPosSupport" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.synthetize_lpf(System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.synthetize_hpf(System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32,System.Int32,System.Single[],System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.synthesis.SynWTFilterFloatLift9x7.isSameAsFullWT(System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.synthesis.SynWTFilterInt" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.WTDecompSpec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTDecompSpec.#ctor(System.Int32,System.Int32,System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTDecompSpec.getDecSpecType(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTDecompSpec.getDecompType(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTDecompSpec.getLevels(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:CSJ2K.j2k.wavelet.WTFilterSpec" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTFilterSpec.#ctor(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "M:CSJ2K.j2k.wavelet.WTFilterSpec.getKerSpecType(System.Int32)" -->
+    <!-- Badly formed XML comment ignored for member "T:jj2000.j2k.util.NativeServices" -->
+    <!-- Badly formed XML comment ignored for member "P:jj2000.j2k.util.NativeServices.ThreadConcurrency" -->
+    <!-- Badly formed XML comment ignored for member "M:SupportClass.Tokenizer.MoveNext" -->
+  </members>
+</doc>
