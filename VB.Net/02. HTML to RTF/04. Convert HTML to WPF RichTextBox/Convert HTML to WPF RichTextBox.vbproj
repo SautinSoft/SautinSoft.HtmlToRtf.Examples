@@ -63,10 +63,10 @@
       <Version>*</Version>
     </PackageReference>
     <PackageReference Include="SkiaSharp">
-      <Version>2.88.6</Version>
+      <Version>2.88.7</Version>
     </PackageReference>
     <PackageReference Include="Svg.Skia">
-      <Version>1.0.0.2</Version>
+      <Version>1.0.0.18</Version>
     </PackageReference>
     <Reference Include="System.Net.Http" />
   </ItemGroup>
